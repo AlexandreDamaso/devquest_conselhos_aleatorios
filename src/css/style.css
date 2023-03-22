@@ -1,0 +1,33 @@
+:root {
+    --fonte-family: 'Manrope', sans-serif;
+    --fonte-weight: 800;
+    --fonte-size-title: 12px;
+    --fonte-size-text: 16px;
+    --text-color: #cee3e9;
+    --advice-dice-color: #52ffa8;
+    --advice-card-color: #323a49;
+    --background-color: #1f2632;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--background-color);
+    font-family: var(--fonte-family);
+}
+.conselhos-aleatórios {
+    width: 480px;
+    height: 300px;
+    background-color: var(--advice-card-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.title {}
+.texto {
+}
+.divisoria {
+    width: 400px;
+}
+.dado {}
